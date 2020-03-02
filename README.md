@@ -1,0 +1,2 @@
+# AMO
+Little app framework
