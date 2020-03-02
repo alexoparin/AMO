@@ -36,6 +36,17 @@
   <ItemGroup>
     <Compile Include="Common\LibraryException.cs" />
     <Compile Include="Common\ParameterCollection.cs" />
+    <Compile Include="DI\DIContainer.cs" />
+    <Compile Include="DI\InstanceFactories\ExternalFactory.cs" />
+    <Compile Include="DI\InstanceFactories\ExternalInstance.cs" />
+    <Compile Include="DI\InstanceFactories\IInstanceFactory.cs" />
+    <Compile Include="DI\InstanceFactories\TypeFactory.cs" />
+    <Compile Include="DI\InstanceFactories\TypeResolveInfo.cs" />
+    <Compile Include="DI\LifetimeManagement\ExternalLifetimeManager.cs" />
+    <Compile Include="DI\LifetimeManagement\ILifetimeManager.cs" />
+    <Compile Include="DI\LifetimeManagement\SingletonLifetimeManager.cs" />
+    <Compile Include="DI\LifetimeManagement\TransientLifetimeManager.cs" />
+    <Compile Include="DI\ResolveContext.cs" />
     <Compile Include="Messenger\Messenger.cs" />
     <Compile Include="Messenger\Subscription.cs" />
     <Compile Include="Messenger\SubscriptionInvoker.cs" />

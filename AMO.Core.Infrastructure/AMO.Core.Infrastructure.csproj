@@ -35,6 +35,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\IParameterCollection.cs" />
+    <Compile Include="DI\IDIContainer.cs" />
+    <Compile Include="DI\IDIRegistry.cs" />
+    <Compile Include="DI\IDIResolveContext.cs" />
+    <Compile Include="DI\IDIResolver.cs" />
+    <Compile Include="DI\LifetimeManagement.cs" />
+    <Compile Include="DI\RegistryExtensions.cs" />
+    <Compile Include="DI\ResolveDelegate.cs" />
+    <Compile Include="DI\ResolverExtensions.cs" />
     <Compile Include="Messenger\IMessenger.cs" />
     <Compile Include="Messenger\ISubscriber.cs" />
     <Compile Include="Messenger\MessageThread.cs" />
