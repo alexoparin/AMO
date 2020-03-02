@@ -34,6 +34,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\IParameterCollection.cs" />
+    <Compile Include="Messenger\IMessenger.cs" />
+    <Compile Include="Messenger\ISubscriber.cs" />
+    <Compile Include="Messenger\MessageThread.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

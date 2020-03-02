@@ -49,6 +49,12 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Messenger\MessengerTests.cs" />
+    <Compile Include="Messenger\Mocks\EventMessage.cs" />
+    <Compile Include="Messenger\Mocks\Subscriber.cs" />
+    <Compile Include="Messenger\Mocks\SyncContextMock.cs" />
+    <Compile Include="Messenger\SubscriptionInvokerTests.cs" />
+    <Compile Include="Messenger\SubscriptionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

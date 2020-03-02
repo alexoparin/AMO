@@ -34,6 +34,14 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\LibraryException.cs" />
+    <Compile Include="Common\ParameterCollection.cs" />
+    <Compile Include="Messenger\Messenger.cs" />
+    <Compile Include="Messenger\Subscription.cs" />
+    <Compile Include="Messenger\SubscriptionInvoker.cs" />
+    <Compile Include="Messenger\SubscriptionInvokers\CurrentThreadInvoker.cs" />
+    <Compile Include="Messenger\SubscriptionInvokers\NewThreadInvoker.cs" />
+    <Compile Include="Messenger\SubscriptionInvokers\SynchronizedInvoker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
